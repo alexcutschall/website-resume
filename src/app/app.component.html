@@ -1,0 +1,30 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div class="scrollBanner" style="color: red; height: 100px;">
+  <button class="bannerButton" (click)="scrollToSection('aboutMe')">About Me</button>
+  <button class="bannerButton" (click)="scrollToSection('codingPhilosophies')">Coding Philosophies</button>
+  <button class="bannerButton" (click)="scrollToSection('resumeSection')">Resume</button>
+  <button class="bannerButton" (click)="scrollToSection('contactMe')">Contact Me</button>
+</div>
+
+<div id="aboutMe" style="margin-top: 200px; margin-bottom: 200px;">
+  <h1>ABOUT ME</h1>
+</div>
+
+<div id="codingPhilosophies" style="margin-top: 200px; margin-bottom: 200px;">
+  <h1>CODING PHILOSOPHIES</h1>
+</div>
+
+<div id="resumeSection" style="margin-top: 200px; margin-bottom: 200px;">
+  <h1>RESUME</h1>
+</div>
+
+<div id="contactMe" style="margin-top: 200px; margin-bottom: 200px;">
+  <h1>CONTACT ME</h1>
+</div>
+
+<router-outlet></router-outlet>

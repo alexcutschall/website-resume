@@ -1,0 +1,13 @@
+.scrollBanner {
+    width: 110%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.bannerButton {
+    margin: 20px;
+}
