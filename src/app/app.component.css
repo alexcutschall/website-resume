@@ -1,13 +1,29 @@
 .scrollBanner {
-    width: 110%;
-    background-color: blue;
+    width: 100%;
+    background-color: #219ebc;
     display: flex;
     justify-content: space-evenly;
-    left: 0;
-    right: 0;
-    position: absolute;
+    border-radius: 10px;
+    height: 150px;
 }
 
 .bannerButton {
-    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    color: #ffb703;
+    background-color: #219ebc;
+    border: #219ebc;
+    padding: 20px;
+}
+
+.bannerButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.sectionText {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 200px; 
+    margin-bottom: 200px;
+    text-align:center;
 }

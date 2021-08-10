@@ -1,29 +1,31 @@
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-</div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=Martel:wght@800&family=Montserrat:wght@800&display=swap" rel="stylesheet"> 
 
-<div class="scrollBanner" style="color: red; height: 100px;">
+<h1 class="sectionText">
+  Alex Cutschall Resume
+</h1>
+
+<div class="scrollBanner">
   <button class="bannerButton" (click)="scrollToSection('aboutMe')">About Me</button>
   <button class="bannerButton" (click)="scrollToSection('codingPhilosophies')">Coding Philosophies</button>
   <button class="bannerButton" (click)="scrollToSection('resumeSection')">Resume</button>
   <button class="bannerButton" (click)="scrollToSection('contactMe')">Contact Me</button>
 </div>
 
-<div id="aboutMe" style="margin-top: 200px; margin-bottom: 200px;">
+<div id="aboutMe" class="sectionText">
   <h1>ABOUT ME</h1>
 </div>
 
-<div id="codingPhilosophies" style="margin-top: 200px; margin-bottom: 200px;">
+<div id="codingPhilosophies" class="sectionText">
   <h1>CODING PHILOSOPHIES</h1>
 </div>
 
-<div id="resumeSection" style="margin-top: 200px; margin-bottom: 200px;">
+<div id="resumeSection" class="sectionText">
   <h1>RESUME</h1>
 </div>
 
-<div id="contactMe" style="margin-top: 200px; margin-bottom: 200px;">
+<div id="contactMe" class="sectionText">
   <h1>CONTACT ME</h1>
 </div>
 
