@@ -7,12 +7,4 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   title = 'alex-website-resume';
-
-  scrollToSection(elementName) {
-    const element = document.getElementById(elementName)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-
-  }
 }

@@ -1,0 +1,28 @@
+.scrollBanner {
+    background-color: #6699cc;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+}
+
+.bannerButton {
+    font-size: 150%;
+    color: #ffb703;
+    background-color: #6699cc;
+    border: #219ebc;
+    padding: 20px;
+}
+
+.bannerButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
