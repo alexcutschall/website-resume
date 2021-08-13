@@ -1,7 +1,7 @@
 .pageGrid {
     display: grid;
     grid-template-columns: 20vw 40vw 40vw;
-    grid-template-rows: 40vh 30vh 30vh;
+    grid-template-rows: auto auto auto;
 }
 
 .header {
@@ -19,6 +19,8 @@
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 5;
+
+    height: 70vh;
 }
 
 .headerText {
@@ -40,13 +42,10 @@
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
+
+    position: sticky;
+    top: 0;
+    height: 100vh;
 }
 
-.contentArea {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 5;
 
-    text-align: center;
-}

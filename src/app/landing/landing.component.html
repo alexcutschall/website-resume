@@ -1,2 +1,27 @@
-<app-page-layout [title]="'Alex Cutschall'" [subtitle]="'Programmer | Learner | Website Tinkerer'"></app-page-layout>
+
+<div class="pageGrid">
+    <div class="header">
+      <h1 class="headerText">
+        {{ title }}
+      </h1>
+      <h3 class="headerSubtitleText">{{ subtitle }}</h3>
+    </div>
+  
+    <app-sidebar class="sidebar"></app-sidebar>
+  
+    <div class="contentArea">
+        <h1>Hello! A little about me.</h1>
+        <ul>
+            <li>
+                A big fan of open source
+            </li>
+            <li>
+                Fascinated with web design, graphics programming, and emulation
+            </li>
+            <li>
+                Ready for my next opportunity to make an impact!
+            </li>
+        </ul>
+    </div>
+</div>
 

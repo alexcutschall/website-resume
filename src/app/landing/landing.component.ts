@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
+  title = 'Alex Cutschall';
+  subtitle = 'Programmer | Learner | Website Tinkerer'
   constructor() { }
 
   ngOnInit() {
