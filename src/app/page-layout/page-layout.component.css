@@ -1,6 +1,11 @@
+.pageGrid {
+    display: grid;
+    grid-template-columns: 20vw 40vw 40vw;
+    grid-template-rows: 40vh 30vh 30vh;
+}
+
 .header {
     background-image: url("../../assets/portland.jpg");
-    height: 500px; 
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +14,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: -10px;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 .headerText {
@@ -19,12 +28,25 @@
     border-style: none none solid none;
     padding: 10px;
     font-size: 50px;
-    margin-left: 350px;
 }
 
 .headerSubtitleText {
-    color: white; 
-    margin: -5px;
+    color: white;
     -webkit-text-stroke: 1px black;
-    margin-left: 350px;
+}
+
+.sidebar {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.contentArea {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    text-align: center;
 }
