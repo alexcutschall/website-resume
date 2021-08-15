@@ -1,7 +1,7 @@
-.sectionText {
-    margin-top: 200px; 
-    margin-bottom: 200px;
-    text-align:center;
+.resumeContent {
+    text-align: center;
+    margin: 0 50px 0 50px;
+    border: 10px black solid;
 }
 
 * {

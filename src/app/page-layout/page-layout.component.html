@@ -1,17 +1,23 @@
 
 <div class="pageGrid">
-  <div class="header">
-    <h1 class="headerText">
-      {{ title }}
-    </h1>
-    <h3 class="headerSubtitleText">{{ subtitle }}</h3>
-  </div>
-
   <app-sidebar class="sidebar" [imagePath]='imagePath'></app-sidebar>
 
-  <div class="contentArea">
-    <ng-content>
+  <div class="scrollableContent">
+    <div class="header">
+      <h1 class="headerText">
+        {{ title }}
+      </h1>
+      <h3 class="headerSubtitleText">{{ subtitle }}</h3>
+  
+    </div>
 
-    </ng-content>
+    <div class="pageContent">
+      <ng-content>
+        
+      </ng-content>
+    </div>
   </div>
+  
+
+  
 </div>
