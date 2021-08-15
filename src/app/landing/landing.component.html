@@ -1,15 +1,5 @@
-
-<div class="pageGrid">
-    <div class="header">
-      <h1 class="headerText">
-        {{ title }}
-      </h1>
-      <h3 class="headerSubtitleText">{{ subtitle }}</h3>
-    </div>
-  
-    <app-sidebar class="sidebar"></app-sidebar>
-  
-    <div class="contentArea">
+<app-page-layout [title]='title' [subtitle]='subtitle'>
+    <div style="text-align: center;">
         <h1>Hello! A little about me.</h1>
         <ul>
             <li>
@@ -23,5 +13,5 @@
             </li>
         </ul>
     </div>
-</div>
+</app-page-layout>
 

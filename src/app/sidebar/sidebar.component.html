@@ -1,11 +1,21 @@
 <div class="scrollBanner">
-  Alex Cutschall
-  <hr style="width: 150px" />
-  <p>
-    Three years of experience. Fan of open source.
-    Perenially interested in graphics and emulation programming.
-  </p>
+  <button class="name" (click)="navigate('')">Alex Cutschall</button>
+  <hr style="width: 80%" />
   <button class="bannerButton" (click)="navigate('resume')">Resume</button>
-  <button class="bannerButton" (click)="navigate('about-me')">About Me</button>
   <button class="bannerButton" (click)="navigate('coding-philosophies')">Coding Philosophies</button>
+  <button class="bannerButton" (click)="navigate('about-me')">About Me</button>
+  <hr style="width: 80%" />
+  <div class="contactRow">
+    <a href=""></a>
+    <img class="contactImages" src="./../../assets/email.png" (click)="contactImageClicked('email')">
+    <a href="https://www.linkedin.com/in/alex-cutschall/" target="_blank"><img class="contactImages" src="./../../assets/linkedin.png"></a>
+    
+    <a href="https://github.com/alexcutschall" target="_blank"><img class="contactImages" src="./../../assets/github.png"></a>
+    
+  </div>
+
+  <div class="photoFrame">
+    <img class="personalPhoto"  [src]="fullImagePath">
+  </div>
+  
 </div>

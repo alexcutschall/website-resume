@@ -9,6 +9,7 @@ export class PageLayoutComponent {
 
   @Input() title = '';
   @Input() subtitle = '';
+  @Input() imagePath = '';
 
   constructor() { }
 

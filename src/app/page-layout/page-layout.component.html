@@ -7,48 +7,11 @@
     <h3 class="headerSubtitleText">{{ subtitle }}</h3>
   </div>
 
-  <app-sidebar class="sidebar"></app-sidebar>
+  <app-sidebar class="sidebar" [imagePath]='imagePath'></app-sidebar>
 
   <div class="contentArea">
-      <h1>Hello! A little about me.</h1>
-      <ul>
-          <li>
-              A big fan of open source
-          </li>
-          <li>
-              Fascinated with web design, graphics programming, and emulation
-          </li>
-          <li>
-              Ready for my next opportunity to make an impact!
-          </li>
-      </ul>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Maecenas pharetra ipsum sit amet nulla finibus pellentesque. 
-        Pellentesque vulputate vehicula nunc vitae condimentum. 
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-        In eu sapien sit amet nunc gravida tristique quis vel augue. Nulla lacinia nunc dolor, et scelerisque est consectetur et. 
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Maecenas pharetra ipsum sit amet nulla finibus pellentesque. 
-        Pellentesque vulputate vehicula nunc vitae condimentum. 
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-        In eu sapien sit amet nunc gravida tristique quis vel augue. Nulla lacinia nunc dolor, et scelerisque est consectetur et. 
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Maecenas pharetra ipsum sit amet nulla finibus pellentesque. 
-        Pellentesque vulputate vehicula nunc vitae condimentum. 
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-        In eu sapien sit amet nunc gravida tristique quis vel augue. Nulla lacinia nunc dolor, et scelerisque est consectetur et. 
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Maecenas pharetra ipsum sit amet nulla finibus pellentesque. 
-        Pellentesque vulputate vehicula nunc vitae condimentum. 
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-        In eu sapien sit amet nunc gravida tristique quis vel augue. Nulla lacinia nunc dolor, et scelerisque est consectetur et. 
-      </p>
+    <ng-content>
+
+    </ng-content>
   </div>
 </div>

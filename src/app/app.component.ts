@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,7 @@ import { Component, ElementRef, ViewChild, ViewEncapsulation } from '@angular/co
 })
 export class AppComponent {
   title = 'alex-website-resume';
+  constructor(private titleService: Title) {
+    this.titleService.setTitle("Alex Cutschall");
+  }
 }
