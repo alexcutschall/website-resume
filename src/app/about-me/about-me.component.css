@@ -1,8 +1,45 @@
-.sectionText {
-    margin-top: 100px;
-    text-align:center;
-    margin-left: 400px;
-    width: 800px;
+.aboutMeContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: lightgrey;
+    position: relative;
+    bottom: 30px;
+    margin: 0 50px 0 50px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.boxTitle {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.infoBox {
+    border: 5px black solid;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px;
+}
+
+.introBox {
+   background-color: #64ebd7; 
+}
+
+.learningBox {
+    background-color: #f49f20; 
+}
+
+.readingBox {
+    background-color: #ac9ce9; 
+}
+
+.instrumentBox {
+    background-color: #80e870; 
+    width: 50%;
+    padding-bottom: 10px;
 }
 
 * {

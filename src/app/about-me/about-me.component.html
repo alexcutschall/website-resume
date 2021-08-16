@@ -1,13 +1,30 @@
-<app-page-layout [title]="'About Me'"></app-page-layout>
+<app-page-layout [title]="'About Me'" [imagePath]="'tess-alex.jpg'" >
+  <div class="aboutMeContent">
+    <div class="introBox infoBox">
+      <p class="boxTitle">Who I am</p>
+      <ul>
+        <li>
+          Minnesota Native, Living in Portland, OR
+        </li>
+        <br />
+        <li>
+          Graduated with a BA in Communications from Minnesota State University Mankato
+        </li>
+        <br />
+        <li>
+          Went to Turing School of Software and Design
+        </li>
+      </ul>
+    </div>
 
-<app-sidebar></app-sidebar>
-
-<div id="aboutMe" class="sectionText">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Maecenas pharetra ipsum sit amet nulla finibus pellentesque. 
-    Pellentesque vulputate vehicula nunc vitae condimentum. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-    In eu sapien sit amet nunc gravida tristique quis vel augue. Nulla lacinia nunc dolor, et scelerisque est consectetur et. 
-  </p>
-</div>
+    <div class="readingBox infoBox">
+      <p class="boxTitle">Books I'm reading</p>
+      <img src="assets/battle-cry.png" alt="battle cry of freedom" style="width: 30%; padding: 20px;">
+      <img src="assets/game-engine.png" alt="game engine architecture" style="width: 35%; padding: 20px;">
+    </div>
+    <div class="instrumentBox infoBox">
+      <p class="boxTitle">Instruments I'm playing</p>
+      <img src="assets/piano.png" alt="piano picture" style="width: 50%;">
+    </div>
+  </div>
+</app-page-layout>
