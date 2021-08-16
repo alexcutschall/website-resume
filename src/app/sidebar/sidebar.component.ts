@@ -25,4 +25,8 @@ export class SidebarComponent implements OnInit {
   navigate(path: string) {
     this.router.navigate([ path ]);
   }
+
+  contactImageClicked(type) {
+    console.log('IMAGE WAS CLICKED', type)
+  }
 }

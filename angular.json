@@ -19,8 +19,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "assets",
-              "professional-photo.jpg"
+              "src/assets/professional-photo.jpg",
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
