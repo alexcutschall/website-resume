@@ -1,15 +1,64 @@
 
-<app-page-layout [title]="'Coding Philosophies'"></app-page-layout>
+<app-page-layout [title]="'Coding Philosophies'" [imagePath]="'rock-climbing.jpg'" >
+  <div class="philosophyContent">
 
-<app-sidebar></app-sidebar>
+    <div class="introText">
+      <p style="font-size: 200%; font-weight: bold;">
+        Why did I add this?
+      </p>
 
-<div class="sectionText">
-  <p>
-    Vivamus nec urna ac lorem molestie sodales eu nec neque. Aenean quis lacinia libero, id aliquam mi. Integer nulla magna, 
-    lobortis et odio a, commodo cursus dui. 
-    Etiam ultrices molestie aliquam. Donec tincidunt augue mauris, ullamcorper venenatis augue fermentum eu. Vestibulum rutrum arcu dolor, 
-    et ultrices arcu dignissim ac. Vestibulum eleifend tempor lectus et aliquet. Aenean laoreet maximus urna et sollicitudin. 
-    Ut finibus nisi eu mauris fermentum porttitor. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-  </p>
-</div>
+      <hr style="width: 80%; color: orange" />
+
+      <p style="padding: 0 20px 0 20px;">
+        If you've been working within with code for a while or 
+        have worked around programmers, none of these philosophies 
+        will surprise you much. They are ones that the experts within my 
+        field have mentioned. Nonetheless, I think the principals that 
+        drives each programmer are important. As I have continually strived
+        to be a better programmer, I have accumulated certain philosophies that
+        are central to how I architect and implement code.
+      </p>
+    </div>
+
+    <p style="font-size: 200%;">
+      Brass Tacks
+    </p>
+
+    <hr style="width: 80%; color: orange" />
+
+    <div class="principlesBox">
+      <ol>
+        <li>
+          <b>Testing:</b> This deserves to be number one because how important 
+          I believe it is. This can be a divisive discussion within the programming 
+          community, but I've experienced first hand how much they impact code. 
+          They improve your design, they squash bugs before they enter QA, 
+          and they let you know if you break anything down the road.
+        </li>
+        <br />
+        <li>
+          <b>Clean Code:</b> The influential book "Clean Code" by Uncle Bob 
+          is worth its weight in gold. It has impacted my code 
+          significantly and helps me make better coding decisions daily.
+           Most of our time as programmers is digging through code, 
+           therefore we should try and do all we can to make it 
+           readable to our future selves and others.
+        </li>
+        <br />
+        <li>
+          <b>Design Decisions:</b> This is a broad topic, 
+          but ultimately its about how we come to make design decisions.
+           In my experience, having multiple design discussions with 
+           different architects is key to making well informed decisions 
+           for your code base. Design patterns help out immensely with 
+           this as it provides a common language for everyone to express 
+           themselves. A lot of this comes down to good communication, 
+           because code and architecture are complex and difficult topics, 
+           therefore the more we can find common ground,
+           the better our decisions will be.
+        </li>
+      </ol>
+    </div>
+  </div>
+  
+</app-page-layout>
