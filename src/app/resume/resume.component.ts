@@ -12,4 +12,14 @@ export class ResumeComponent implements OnInit {
   ngOnInit() {
   }
 
+  downloadMyFile(){
+    // const link = document.createElement('a');
+    // link.setAttribute('target', '_blank');
+    // link.setAttribute('href', './../../assets/alex-cutschall-resume.pdf');
+    // link.setAttribute('download', `alex-cutschall-resume.pdf`);
+    // document.body.appendChild(link);
+    // link.click();
+    // link.remove();
+  }
+
 }

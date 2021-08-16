@@ -20,14 +20,9 @@ export class SidebarComponent implements OnInit {
       this.imagePath = 'professional-photo.jpg';
     }
     this.fullImagePath = this.imagePathPrefix + this.imagePath;
-    console.log('FULL IMAGE PATH', this.fullImagePath)
   }
   
   navigate(path: string) {
     this.router.navigate([ path ]);
-  }
-
-  contactImageClicked(type) {
-    console.log('IMAGE WAS CLICKED', type)
   }
 }

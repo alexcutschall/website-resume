@@ -1,7 +1,57 @@
 .resumeContent {
-    text-align: center;
-    margin: 0 50px 0 50px;
     border: 10px black solid;
+    margin: 0 50px 0 50px;
+    position: relative;
+    bottom: 30px;
+    background-image: linear-gradient(#22c1c3, #fdbb2d);
+    border-radius: 10px;
+}
+
+.resumeGraphicBox {
+    text-align: center;
+}
+
+.resumeGraphic {
+    width: 80%;
+    margin: 0 -100px 0 -100px;
+    padding: 20px 0 20px 0;
+}
+
+.resumeTitleHeader {
+    text-align: center; 
+    font-size: 250%; 
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.jobHeader {
+    font-size: 200%; 
+    margin-left: 20px;
+}
+
+.jobSubHeader {
+    font-size: 160%; 
+    margin-left: 20px;
+}
+
+.jobDescriptionBox {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.jobContentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
+}
+
+.downloadResumeBox {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 * {
